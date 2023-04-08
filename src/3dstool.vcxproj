@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3637112-02FE-35F9-9A2E-906C8E173D81}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>3dstool</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Code\C_CPP\3dstool\3dstool-master\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3dstool.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3dstool_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Code\C_CPP\3dstool\3dstool-master\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3dstool.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3dstool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Code\C_CPP\3dstool\3dstool-master\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">3dstool.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">3dstool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Code\C_CPP\3dstool\3dstool-master\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">3dstool.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">3dstool</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(MSBuildStartupDirectory)\dep\include\windows_x86_64;$(MSBuildStartupDirectory)\dep\src\capstone-3.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MSBuildStartupDirectory)\dep\lib\windows_x86_64_msvc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <IncludePath>$(MSBuildStartupDirectory)\dep\include\windows_x86_64;$(MSBuildStartupDirectory)\dep\src\capstone-3.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MSBuildStartupDirectory)\dep\lib\windows_x86_64_msvc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(MSBuildStartupDirectory)\dep\include\windows_x86_64;$(MSBuildStartupDirectory)\dep\src\capstone-3.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MSBuildStartupDirectory)\dep\lib\windows_x86_64_msvc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <IncludePath>$(MSBuildStartupDirectory)\dep\include\windows_x86_64;$(MSBuildStartupDirectory)\dep\src\capstone-3.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(MSBuildStartupDirectory)\dep\lib\windows_x86_64_msvc14;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)dep\src\capstone-3.0.5\include;$(ProjectDir)dep\include\windows_x86_64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_3DSTOOL_VERSION="1.2.6";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_3DSTOOL_VERSION=\"1.2.6\";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;libcrypto.lib;WS2_32.lib;Wldap32.lib;Crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4099</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Code/C_CPP/3dstool/3dstool-master/src/Debug/3dstool_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Code/C_CPP/3dstool/3dstool-master/bin/Debug/3dstool_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)genversion.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)dep\src\capstone-3.0.5\include;$(ProjectDir)dep\include\windows_x86_64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION="1.2.6";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION=\"1.2.6\";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;libcrypto.lib;WS2_32.lib;Wldap32.lib;Crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Code/C_CPP/3dstool/3dstool-master/src/Release/3dstool.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Code/C_CPP/3dstool/3dstool-master/bin/Release/3dstool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)genversion.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)dep\src\capstone-3.0.5\include;$(ProjectDir)dep\include\windows_x86_64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION="1.2.6";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION=\"1.2.6\";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;libcrypto.lib;WS2_32.lib;Wldap32.lib;Crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Code/C_CPP/3dstool/3dstool-master/src/MinSizeRel/3dstool.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Code/C_CPP/3dstool/3dstool-master/bin/MinSizeRel/3dstool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)genversion.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)dep\src\capstone-3.0.5\include;$(ProjectDir)dep\include\windows_x86_64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION="1.2.6";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_3DSTOOL_VERSION=\"1.2.6\";_CRT_SECURE_NO_WARNINGS;SDW_MAIN;CURL_STATICLIB;CAPSTONE_USE_SYS_DYN_MEM;CAPSTONE_HAS_ARM;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>libcurl.lib;libcrypto.lib;WS2_32.lib;Wldap32.lib;Crypt32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /IGNORE:4099</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/Code/C_CPP/3dstool/3dstool-master/src/RelWithDebInfo/3dstool.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/Code/C_CPP/3dstool/3dstool-master/bin/RelWithDebInfo/3dstool.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)genversion.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Code/C_CPP/3dstool/3dstool-master -BF:/Code/C_CPP/3dstool/3dstool-master --check-stamp-file F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Code/C_CPP/3dstool/3dstool-master -BF:/Code/C_CPP/3dstool/3dstool-master --check-stamp-file F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Code/C_CPP/3dstool/3dstool-master -BF:/Code/C_CPP/3dstool/3dstool-master --check-stamp-file F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/Code/C_CPP/3dstool/3dstool-master -BF:/Code/C_CPP/3dstool/3dstool-master --check-stamp-file F:/Code/C_CPP/3dstool/3dstool-master/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dscrypt.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dscrypt.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dstool.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dstool.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\backwardlz77.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\backwardlz77.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\banner.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\banner.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\bignum.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\bignum.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\code.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\code.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\exefs.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\exefs.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\extendedheader.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\huffman.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\huffman.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\lz77.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\lz77.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncch.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncch.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncsd.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncsd.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\patch.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\patch.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\romfs.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\romfs.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\runlength.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\runlength.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\space.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\space.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\url_manager.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\url_manager.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\utility.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\utility.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\yaz0.cpp" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\yaz0.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\arm.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\arm64.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\capstone.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\mips.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\platform.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\ppc.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\sparc.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\systemz.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\x86.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\xcore.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\LEB128.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCDisassembler.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCFixedLenDisassembler.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInst.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInst.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInstrDesc.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInstrDesc.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCRegisterInfo.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCRegisterInfo.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MathExtras.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\SStream.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\SStream.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\cs.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\cs_priv.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\utils.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\utils.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMAddressingModes.h" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMBaseInfo.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMDisassembler.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMDisassembler.h" />
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenAsmWriter.inc">
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenDisassemblerTables.inc">
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenInstrInfo.inc">
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenRegisterInfo.inc">
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenSubtargetInfo.inc">
+    </None>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMInstPrinter.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMInstPrinter.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMMapping.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMMapping.h" />
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMModule.c" />
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMModule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Code\C_CPP\3dstool\3dstool-master\ZERO_CHECK.vcxproj">
+      <Project>{4706039F-A4E0-3B02-9EDA-664750F6DD23}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dscrypt.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dstool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\backwardlz77.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\banner.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\bignum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\code.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\exefs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\huffman.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\lz77.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncsd.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\patch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\romfs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\runlength.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\space.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\url_manager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\utility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\src\yaz0.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInst.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInstrDesc.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCRegisterInfo.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\SStream.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\cs.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\utils.c">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMDisassembler.c">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMInstPrinter.c">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMMapping.c">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMModule.c">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dscrypt.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\3dstool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\backwardlz77.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\banner.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\bignum.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\code.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\exefs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\extendedheader.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\huffman.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\lz77.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\ncsd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\patch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\romfs.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\runlength.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\space.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\url_manager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\utility.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\src\yaz0.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\arm.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\arm64.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\capstone.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\mips.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\platform.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\ppc.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\sparc.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\systemz.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\x86.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\include\xcore.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\include</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\LEB128.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCDisassembler.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCFixedLenDisassembler.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInst.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCInstrDesc.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MCRegisterInfo.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\MathExtras.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\SStream.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\cs_priv.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\utils.h">
+      <Filter>src\..\dep\src\capstone-3.0.5</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMAddressingModes.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMBaseInfo.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMDisassembler.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMInstPrinter.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMMapping.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMModule.h">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Code\C_CPP\3dstool\3dstool-master\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenAsmWriter.inc">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenDisassemblerTables.inc">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenInstrInfo.inc">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenRegisterInfo.inc">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </None>
+    <None Include="F:\Code\C_CPP\3dstool\3dstool-master\dep\src\capstone-3.0.5\arch\ARM\ARMGenSubtargetInfo.inc">
+      <Filter>src\..\dep\src\capstone-3.0.5\arch\ARM</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{D2FF307E-9053-3F09-9F2A-A29998FED9FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..">
+      <UniqueIdentifier>{4A8CB7E4-9408-3ED1-AE58-340A04D7BF9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep">
+      <UniqueIdentifier>{C227F641-7DD3-3816-B84D-D98EA41099DE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep\src">
+      <UniqueIdentifier>{8D161F48-63AC-32B0-8737-0F40374E6C7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep\src\capstone-3.0.5">
+      <UniqueIdentifier>{E8F5B88C-58E6-3443-9FB4-94297680F37C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep\src\capstone-3.0.5\arch">
+      <UniqueIdentifier>{D4411C32-0D35-395B-815E-6909231A72FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep\src\capstone-3.0.5\arch\ARM">
+      <UniqueIdentifier>{9CDA99D3-8BB6-3D95-B980-82187EE0AD66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\..\dep\src\capstone-3.0.5\include">
+      <UniqueIdentifier>{A30E02C8-0D3A-37C7-A2C5-C4E727D9DED8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
